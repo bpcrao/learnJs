@@ -13,3 +13,13 @@ function get_question_object() {
 	o.question = "worlds largest mammal?";
 	return o;
 }
+
+function Question(qnNumber, question) {
+	this.qnNumber = qnNumber;
+	this.question = question;
+	
+	Question.prototype.toString = function() {
+		return "{ qnNumber:" + this.qnNumber + ", question" + this.question + "}";
+	};
+}
+
