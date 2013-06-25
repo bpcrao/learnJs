@@ -1,0 +1,12 @@
+{
+  "name": "ember-app",
+  "version": "0.0.0",
+  "dependencies": {
+      "modernizr": "~2.6.2",
+        "jquery": "~1.9.1",
+        "handlebars": "1.0.0-rc.4",
+        "ember": "1.0.0-rc.4",
+        "ember-data-shim": "0.0.13"
+  },
+  "devDependencies": {}
+}
